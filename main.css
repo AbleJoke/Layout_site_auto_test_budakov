@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    width: 1920px;
+    height: 544px;
+    padding-top: 60px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    padding-left: 120px;
+    gap: 32px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1680px;
+    height: 424px;
+    border-radius: 12px;
+    padding: 60px;
+    background: #2897D01A;
+}
+
+.content{
+    width: 825px;
+    height: 304px;
+    font-family: Mulish;
+}
+
+.content h2{
+    width: 825px;
+    height: 104px;
+    margin-bottom: 24px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    color: #193E63;
+
+}
+
+.content .text--one{
+    width: 825px;
+    height: 68px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+    padding-right: 210px;
+    margin-bottom: 44px;
+
+}
+
+.colorbox-node{
+    display: table-cell;
+    vertical-align: middle;
+    width: 251px;
+    height: 64px;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-right: 32px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    background: #2897D0;
+
+}
+
+.init-colorbox-node-processed-processed{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    color:  #FFFFFF;
+}
+
+.image {
+    position: absolute; 
+    top: 61px;
+    left: 785px;
+}
+
+.image .vector1{
+    width: 965.014404296875px;
+    top: 61px;
+    left: 785px;
+    opacity: 0.4;
+    display: block; 
+    height: auto;
+}
+
+.image .vector2{
+    position: absolute;
+    height: auto;
+    display: block; 
+    opacity: 0.4;
+    top: 136.62px;
+    left: 260.58px;
+}
+
+.key3{
+    position: absolute;
+    height: auto;
+    display: block;
+    opacity: 1;
+    top: 22.41px;
+    left: -125.83px;
+
+}
+
+.key2{
+    position: absolute;
+    height: auto;
+    display: block;
+    opacity: 1;
+    top: 85px;
+    left: -130px;
+
+}
+
+.key1{
+    position: absolute;
+    height: auto;
+    display: block;
+    opacity: 1;
+    top: 236px;
+    left: 39px;
+
+}
